@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    justify-items: center;
+    height: 80px;
+
+}
+ .navigation .nav-left h2{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+}
+.navigation ol{
+    display: flex;
+    flex:2 ;
+    justify-content: center;
+}
+.navigation img{
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+.navigation .nav-left{
+    display: flex;
+    flex: 1;
+    padding-left: 20px; 
+}
+.navigation .list li{
+    width:100px;
+    display: inline;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+
+}
+.navigation .buttons{
+    flex: 1; 
+}
+.buttons button{
+    width: 180px;
+    height: 50px;
+    background-color:rgb(255, 72, 0);
+    color: white;
+    border:rgb(255, 72, 0) ;
+    letter-spacing: 3px;
+    font-size: 10px;
+    margin-left: 100px;
+}
+.secondpage{
+    min-width: 800px;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(http://suviautomation.com/wp-content/uploads/2021/07/software-1210x660.jpg);
+}
+.secondpage h1{
+    font-size: 5em;
+    color:white;
+}
+.secondpage p{
+    
+    color: white;
+    font-size:25px;
+}
+.secondpage h1>span{
+    color: rgb(255, 72, 0);
+}
+
+
+
+.third h2{
+    color:red;
+    font-size: 60px;
+}
+.third{
+    background-color: black;
+    width: 450px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.third p{
+    color: white;
+    font-size: 20px;
+}
+.third p:nth-child(3){
+    font-size: 25px;
+    font-family:serif;
+}
+.imr img{
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.th{
+    
+    display: flex;
+    justify-content:  space-around;
+    
+    background-color: black;
+   flex-wrap: wrap;
+   padding-top: 70px;
+   padding-bottom: 70px;
+    
+}
+
+
+
+.port{
+    width: 500px;
+    height: 500px;
+    border-right: 2px solid rgb(235, 33, 33);
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+.port button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+
+}
+.port h1{
+    font-size: 43px;
+} 
+.port p:nth-child(3){
+    font-size: 20px;
+    width: 230px;
+}
+.tabler img{
+    height: 60px;
+    width: 60px;
+}
+.tabler table{
+    width: 510px;
+    margin-left: 50px;
+    height: 500px;
+}
+.tabler h1{
+    font-size: 30px;
+}
+
+.tabler td p {
+    font-size: 20px;
+    width: 200px;
+}
+.tabler td{
+    padding: 20px;
+}
+.contact-m{
+    display: flex ;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.slide img{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    transition: 1s;
+    border-radius: 10px;
+
+}
+.slide img:hover{
+    width: 285px;
+    height: 285px;
+    transform: rotateZ(5deg);
+
+}
+.slide{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gal p{
+    margin-left: 100px;
+}
+.gal p{
+    padding-left: 10px;
+}
+.gal h1 {
+    font-size: 60px;
+    margin-left: 100px;
+    
+}
+.gal{
+    padding-top: 100px;
+}
+.gal h1 span{
+    color:  rgb(255, 72, 0);
+}
+.bullets ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.bullets ul li img{
+    width: 15px;
+    height: 15px;
+    margin: 0 30px;
+    
+    padding: 5px;transition: ease-in;
+}
+
+.bullets ul li img:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+.bullets li{
+    flex-direction: row;
+    display:flex;
+}
+.lets{
+    
+    width: 500px;
+    text-align: center;
+    height: 500px;
+    padding-top: 50px;
+    color: white;
+
+}
+.lets h1{
+    font-size: 80px;
+}
+.lets p:nth-child(4){
+    font-size: 30px;
+    margin:20px 0px;
+    
+}
+.content .buu{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color:white ;
+    border: 2px solid black;
+}
+.content h1:nth-child(2){
+    color: white;
+}
+.content h1:nth-child(3){
+    color:rgb(255, 72, 0) ;
+}
+.li-co{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 270px;
+    height: 500px;
+    border: 2px solid white;  
+    background: white; 
+}
+
+.li-co .lis{
+    padding: 35px;
+    background-image: linear-gradient(rgb(255, 254, 254),rgb(248, 239, 239));
+}
+.li-co table{
+    margin-top: 20px;
+    padding: 50px 35px 20px;
+}
+.li-co td {
+    border-bottom: 2px solid rgb(252, 114, 2);
+    letter-spacing: 3px;
+}
+.rights button{
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color:white ;
+    border: 2px solid black;
+    margin-left: 35px;
+}
+
+
+
+.ri-co{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 270px;
+    height: 500px;
+    background: white;   
+}
+
+.ri-co .liss{
+    color: white;
+    padding: 35px;
+    background-image: linear-gradient(rgb(139, 137, 137),rgb(139, 138, 137));
+}
+.ri-co table{
+    margin-top: 20px;
+    padding: 50px 35px 20px;
+}
+.ri-co td {
+    border-bottom: 2px solid rgb(252, 114, 2);
+    letter-spacing: 3px;
+}
+.ri-co button{
+    width: 180px;
+    height: 60px;
+    background-color:  rgb(252, 114, 2);
+    color:white ;
+    border: 2px solid  rgb(252, 114, 2);
+    margin-left: 35px;
+}
+.rights{
+    display: flex;
+    width: 600px;
+    height: 550px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ,url(https://mobirise.com/extensions/successm4/business-software/assets/images/background32.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.bully ul li img{
+    height: 10px;
+    width:10px;
+}
+.bully ul li img:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.bully ul li{
+    display: inline;
+    padding: 10px;
+}
+.bully{
+   
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.round h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.pic img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.pic{
+    width: 700px;
+    font-size: 22px;
+    
+}
+.par{
+    clear: left;
+  
+    width: 700px;
+    padding-left: 175px;
+}
+.round{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(253, 249, 249);
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.thir{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 85px 0px;
+    padding-left: 50px;
+}
+.thir h2{
+    font-size: 45px;
+}
+.thir  h2 span{
+    color: rgb(252, 114, 2) ;
+}
+.thir p:nth-child(4){
+    font-size: 20px;
+    width: 500px;
+}
+.form{
+    width: 600px;
+    height: 470px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    /* width: 480px; */
+    padding: 10px; 
+}
+.form div:nth-child(2){
+    border-bottom: 1px solid black;
+}
+.form div:nth-child(2) input{
+    width:300px ;
+    height: 50px;
+    padding-left: 10px;
+    border:none;
+    background-color: rgb(253, 249, 249);
+}
+.form div:nth-child(1){
+    border-bottom: 1px solid black;
+}
+.form div:nth-child(1) input{
+    width:300px ;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgb(253, 249, 249);
+}
+
+.form div:nth-child(3){
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.form div:nth-child(3) textarea{
+    border: none;
+    border-style: none;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(253, 249, 249);
+}
+.form  div:nth-child(4) button{
+    
+    background-color: rgb(252, 114, 2);
+    border:2px solid rgb(252, 114, 2);
+    height: 45px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+    border-color: transparent;
+}
+form textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.foo-t{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: rgb(253, 249, 249);
+}
+.mage img{
+    height: 100px;
+    width: 150px;
+}
+.mage{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+}
+.footer h1{
+    font-size: 50px;
+}
+.footer{
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    
+}
+
+.end img{
+    width: 80px;
+    height: 80px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(253, 249, 249);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.end p{
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="nav-left">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/logo.png" alt="">
+        <h2>Mobirise</h2>
+    </div>
+        <ol class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Project</li>
+            <li>Price</li>
+        </ol>
+        <div class="buttons">
+        <button type="contact">CONTACT US</button>
+    </div>
+    </div>
+    <div class="secondpage">
+        <h1>Bussiness  <span>Software</span></h1>
+        <p>Let's deliver the right solution for your bussiness</p>
+    </div>
+
+    <div class="th">
+    <div class="third">
+        <p>ME</p>
+        <h2>Who we are</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur elit sed do.</p>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis lorem at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril</p>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis lorem at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis lorem at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p>
+         <hr>
+    </div>
+    <div class="imr">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/feature57.jpg" alt="">
+    </div>
+</div>
+
+<div class="contact-m">
+<div class="port">
+    <p>SERICES</p>
+    <h1>What We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie</p>
+    <button id="sec-button">View all Services</button>
+</div>
+<div class="tabler">
+    <table>
+    <tr>
+        <td>
+            <img src="https://pic.onlinewebfonts.com/thumbnails/icons_572349.svg" alt="">
+            <h1>CORPORATE SOLUTIONS</h1>
+            <P>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie.</P>
+        </td>
+        <td>
+        <img src="https://pic.onlinewebfonts.com/thumbnails/icons_395294.svg" alt="">
+        <h1>CALL CENTER SOLUTIONS</h1>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie.</p>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://pic.onlinewebfonts.com/thumbnails/icons_570974.svg" alt="">
+            <h1>CLOUD DEVELOPMNT</h1>
+            <P>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie.</P>
+        </td>
+        <td>
+            <img src="https://pic.onlinewebfonts.com/thumbnails/icons_565682.svg" alt="">
+            <h1>TARGET ANALYSIS</h1>
+            <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie.</p>
+        </td>
+    </tr></table>
+</div>
+</div>
+
+<div class="gal">
+    <p>PROJECTS</p>
+    <h1>Featured <span>Project Showcase</span></h1>
+    <div class="slide">
+    <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/feature50.jpg" alt="">
+    <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/feature53.jpg" alt="">
+    <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/feature50.jpg" alt="">
+    </div>
+</div>
+<div class="bullets">
+    <ul>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li></ul>
+</div>
+<div class="content">
+       <div class="lets">
+        <p>PRICING</p>
+        <h1>Extra</h1>
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie</p>
+        <button class="buu"id="lets">READ MORE</button>
+       </div>
+       <div class="rights">
+        <div class="li-co">
+            <div class="lis">
+            <h1>BASIC</h1>
+            <H2>$ 40.00</H2>
+            <p>starting at</p>  </div>  
+        <table>
+        <tr>
+        <td>Lorem ipsum dolor</td></tr>
+        <tr>
+        <td>Sit amet, conse ctetuer</td>
+         </tr>
+         <tr>
+        <td>adipiscing elit</td>
+        </tr>
+        <tr>
+        <td>sed diam nonum nibhie</td>
+        </tr>
+        </table>
+        <button id="right">READ MORE</button>
+        </div>
+        <div class="ri-co">
+            <div class="liss">
+                <h1>ULTIMATE</h1>
+                <H2>$ 99.99</H2>
+                <p>starting at</p>  </div>  
+            <table>
+            <tr>
+            <td>Lorem ipsum dolor</td></tr>
+            <tr>
+            <td>Sit amet, conse ctetuer</td>
+             </tr>
+             <tr>
+            <td>adipiscing elit</td>
+            </tr>
+            <tr>
+            <td>sed diam nonum nibhie</td>
+            </tr>
+            </table>
+            <button id="right">READ MORE</button>
+            </div>
+        </div>
+       </div>
+</div>
+<div class="round">
+    <h1>What People Say</h1>
+    <div class="pic">
+        <img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/taapsee-pannu-20499-1666091231.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis lorem at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p>    
+    </div>
+    <div class="par">
+        <h3>Topsee Pannu</h3>
+        <p>Actress</p>
+    </div>
+    <div class="bully">
+        <ul>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" alt=""></li></ul>
+    </div>
+
+</div>
+<div class="foo-t">
+    <div class="thir">
+        <p>CONTACTS</p>
+        <h2>Let's Develop</h2>
+        <h2> <span>Your Next Great App!</span></h2>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie</p>
+        <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie</p>
+         
+    </div>
+    <div class="form">
+        <form action="submit">
+           <div> <input type="email" name="email" id="email" placeholder="Email"></div>
+            <div><input type="number" name="number" id="number" placeholder="phone"></div>
+            <div><textarea name="feedback" id="feedback" cols="50" rows="10" placeholder="Message"></textarea></div>
+          <div>  <button id="submit">Submit</button></div>
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <h1>They Trust Us</h1>
+    <div class="mage">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/2.png" alt="">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/3.png" alt="">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/5.png" alt="">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/4.png" alt="">
+        <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/1.png" alt="">
+    </div>
+
+</div>
+<div class="end">
+    <img src="https://mobirise.com/extensions/successm4/business-software/assets/images/logo.png" alt="">
+    <p><span>&copy;</span> 2020 Success M4 Theme by Mobirise</p>
+
+</div>
+
+</body>
+</html>
